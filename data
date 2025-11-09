@@ -1,1 +1,15 @@
+{
+  "nom": "Heroi",
+  "nivell": 1,
+  "xp": 0,
+  "stats": {
+    "atac": 5,
+    "defensa": 3,
+    "agilitat": 9
+  },
+  "equipament": {
+    "arma": "Destral "
+  },
+  "inventari": ["espasa, escut"]
+}
 
