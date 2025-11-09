@@ -20,7 +20,8 @@ Aquest projecte és un petit **joc de rol** desenvolupat en **Java**, on els per
    ```bash
    javac -d out src/main/java/com/projecte/jocminiro/**/**/*.java
 
-   Herència:
+
+Herència   
 Les classes Arma i Armadura hereten d’una classe base Equipament.
 
 Interfícies:
