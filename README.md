@@ -28,18 +28,9 @@ Interfícies:
 La interfície Accions defineix mètodes comuns per a tots els personatges (atacar(), defensar()...).
 
 Classes estàtiques:
-FitxerUtils conté mètodes estàtics per carregar i guardar dades JSON amb Gson.
+FitxerUtils conté mètodes estàtics per carregar i guardar dades.
 
-Patró de disseny:
-S’ha fet servir el patró Factory per crear objectes Arma o Armadura a partir de fitxers JSON.
 
-Organització de paquets:
-
-model/ → classes de domini (Personatge, Arma, Armadura)
-
-game/ → lògica del joc (Joc.java, Combats.java)
-
-utils/ → funcions auxiliars (FitxerUtils.java)
 
 
 
