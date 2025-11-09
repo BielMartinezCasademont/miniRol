@@ -4,21 +4,22 @@ Aquest projecte és un petit **joc de rol** desenvolupat en **Java**, on els per
 
 ---
 
-## Requisits
+## ⚙️ Requisits
 
 - **Java 17** o superior  
+- Llibreries externes:
+  - [**Gson 2.10.1**](https://github.com/google/gson) → per llegir i escriure fitxers JSON
 
 ---
 
-##  Instruccions d’execució
+## Instruccions d’execució
 
-###  Opció 1: Sense Maven (execució directa)
+### Opció 1: Sense Maven (execució directa)
 
 1. **Compila el projecte:**
    ```bash
    javac -d out src/main/java/com/projecte/jocminiro/**/**/*.java
 
-   java -cp out com.projecte.jocminiro.Main
 
 
 
