@@ -8,6 +8,9 @@ public class Personatge extends Entitat implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
+    // NOU: Variable per al seguiment de la progressió de l'arma a la botiga (0=Espasa, 1=Catana, etc.)
+    private int nivellArmaComprada = 0;
+
     private int nivell, or, xp, xpNecessaria, danyTotalRebut, danyTotalCausat;
 
     private int agilitat;
@@ -33,6 +36,15 @@ public class Personatge extends Entitat implements Serializable {
         this.agilitat = raca.getAgilitatBase();
     }
 
+    // NOU: Getters i Setters per al nivell de l'arma comprada
+    public int getNivellArmaComprada() {
+        return nivellArmaComprada;
+    }
+
+    public void setNivellArmaComprada(int nivellArmaComprada) {
+        this.nivellArmaComprada = nivellArmaComprada;
+    }
+
     public boolean equiparArma(Arma novaArma) {
         if (novaArma.potEquipar(this.raca)) {
             this.arma = novaArma;
@@ -52,6 +64,8 @@ public class Personatge extends Entitat implements Serializable {
     public Raca getRaca() {
         return raca;
     }
+
+    // ... (la resta de mètodes existents: getNivell, getDanyTotalRebut, etc.)
 
     public int getNivell() {
         return nivell;
