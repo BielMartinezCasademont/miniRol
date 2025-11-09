@@ -7,8 +7,6 @@ Aquest projecte és un petit **joc de rol** desenvolupat en **Java**, on els per
 ## ⚙️ Requisits
 
 - **Java 17** o superior  
-- Llibreries externes:
-  - [**Gson 2.10.1**](https://github.com/google/gson) → per llegir i escriure fitxers JSON
 
 ---
 
