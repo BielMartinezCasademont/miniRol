@@ -20,6 +20,26 @@ Aquest projecte és un petit **joc de rol** desenvolupat en **Java**, on els per
    ```bash
    javac -d out src/main/java/com/projecte/jocminiro/**/**/*.java
 
+   Herència:
+Les classes Arma i Armadura hereten d’una classe base Equipament.
+
+Interfícies:
+La interfície Accions defineix mètodes comuns per a tots els personatges (atacar(), defensar()...).
+
+Classes estàtiques:
+FitxerUtils conté mètodes estàtics per carregar i guardar dades JSON amb Gson.
+
+Patró de disseny:
+S’ha fet servir el patró Factory per crear objectes Arma o Armadura a partir de fitxers JSON.
+
+Organització de paquets:
+
+model/ → classes de domini (Personatge, Arma, Armadura)
+
+game/ → lògica del joc (Joc.java, Combats.java)
+
+utils/ → funcions auxiliars (FitxerUtils.java)
+
 
 
 
