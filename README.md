@@ -12,8 +12,6 @@ Aquest projecte és un petit **joc de rol** desenvolupat en **Java**, on els per
 
 ## Instruccions d’execució
 
-### Opció 1: Sense Maven (execució directa)
-
 1. **Compila el projecte:**
    ```bash
    javac -d out src/main/java/com/projecte/jocminiro/**/**/*.java
