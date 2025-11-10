@@ -24,10 +24,10 @@ public class Botiga {
 
     // NOU: Array amb les armes i els seus atributs
     private static final ArmaVenda[] SEQ_ARMES = {
-            new ArmaVenda("Espasa", 2, 50, "./imatges/espasa.png"), // +2 Atc, 100 Or
-            new ArmaVenda("Catana", 3, 100, "./imatges/catana.png"), // +3 Atc, 250 Or
-            new ArmaVenda("Martell Medieval", 4, 150, "./imatges/martell.png"), // +4 Atc, 450 Or
-            new ArmaVenda("Flagell Medieval", 5, 200, "./imatges/flagell.png") // +5 Atc, 700 Or (Màxim)
+            new ArmaVenda("Espasa", 2, 10, "./imatges/espasa.png"), // +2 Atc, 100 Or
+            new ArmaVenda("Catana", 3, 50, "./imatges/catan.png"), // +3 Atc, 250 Or
+            new ArmaVenda("Martell Medieval", 4, 100, "./imatges/martel.png"), // +4 Atc, 450 Or
+            new ArmaVenda("Flagell Medieval", 5, 150, "./imatges/flagel.png") // +5 Atc, 700 Or (Màxim)
     };
 
     private JDialog marc;
